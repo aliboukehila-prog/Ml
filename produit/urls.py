@@ -20,6 +20,5 @@ from django.urls import path
 urlpatterns = [
    path('',views.index,name='pr_index'),
    path('predict', views.prediction_view, name='predict_price'),
-    
-
+   
 ]
